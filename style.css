@@ -1,0 +1,66 @@
+@font-face {
+  src: url(fonts/Mark-Book/Mark-Book.ttf);
+  font-family: mark-ff;
+}
+* {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  font-size: 12px;
+  font-family: mark-ff;
+}
+header .container-logo {
+  margin-left: 25px;
+  width: 100%;
+  max-width: 140px;
+}
+header .container-logo .container-logo-2 {
+  padding: 25px 10px 10px 36px;
+}
+header nav {
+  padding: 28px;
+}
+header nav a {
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 15px;
+  padding: 30px 25px 25px 25px;
+  text-decoration: none;
+}
+header nav a:link {
+  color: white;
+}
+header nav a:visited {
+  color: white;
+}
+header .playnow-master {
+  display: flex;
+  justify-content: space-between;
+  width: 286px;
+  margin: 29px 20px 0px 461px;
+}
+header .net-icon {
+  width: 15px;
+  align-items: center;
+}
+header .nav-login {
+  font-size: 10px;
+  color: white;
+  font-weight: 800;
+}
+header .nav-play-now {
+  background-color: #0bc4e2;
+  font-size: 10px;
+  color: white;
+  font-weight: 800;
+  width: 129px;
+  height: 41px;
+  margin-top: -15px;
+}
+
+/*# sourceMappingURL=style.css.map */
