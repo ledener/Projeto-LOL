@@ -93,4 +93,33 @@ header .nav-play-now {
   padding: 10px 0px 10px 4%;
 }
 
+.thumbnail-portraits {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 222px;
+  /* thumbnail info*/
+}
+.thumbnail-portraits .thumbnail-grid {
+  width: 412px;
+  height: 232px;
+  background-color: white;
+}
+.thumbnail-portraits .paragraph-top-info {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #0bc6e3;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 222px;
+}
+.section-2 .grid-elements-2 {
+  width: 412px;
+  height: 232px;
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
