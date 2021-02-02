@@ -2,8 +2,12 @@
   src: url(fonts/Mark-Book/Mark-Book.ttf);
   font-family: mark-ff;
 }
+@font-face {
+  src: url(fonts/spiegel.ttf);
+  font-family: spiegel;
+}
 * {
-  margin: 0px;
+  margin: auto;
 }
 
 header {
@@ -22,9 +26,6 @@ header .container-logo {
 header .container-logo .container-logo-2 {
   padding: 25px 10px 10px 36px;
 }
-header nav {
-  padding: 28px;
-}
 header nav a {
   font-size: 10px;
   font-weight: 800;
@@ -42,15 +43,17 @@ header .playnow-master {
   display: flex;
   justify-content: space-between;
   width: 286px;
-  margin: 29px 20px 0px 461px;
+  margin: 10px 20px 0px 461px;
 }
 header .net-icon {
   width: 15px;
+  margin-top: -10px;
   align-items: center;
 }
 header .nav-login {
   font-size: 10px;
   color: white;
+  margin-top: -6px;
   font-weight: 800;
 }
 header .nav-play-now {
@@ -70,12 +73,11 @@ header .nav-play-now {
 }
 .banner-master .banner-riot {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   background-color: black;
   color: white;
   height: 95px;
-  width: 1600px;
+  width: 1665px;
   margin: 38px;
 }
 .banner-master .banner-riot .banner-title {
@@ -83,43 +85,72 @@ header .nav-play-now {
   font-style: italic;
   font-weight: 900;
   font-size: 30px;
-  margin-left: 240px;
+  margin: 20px 20px 20px 211px;
 }
 .banner-master .banner-riot .banner-paragraph {
-  min-width: 0px;
+  font-size: 14px;
   max-width: 350px;
   margin-left: 4%;
   border-left: 1px solid #384951;
   padding: 10px 0px 10px 4%;
 }
 
-.thumbnail-portraits {
+.section-thumbnail-portrait {
   display: flex;
-  justify-content: space-around;
-  margin: 0 222px;
-  /* thumbnail info*/
+  justify-content: center;
+  margin: -12px auto -110px;
 }
-.thumbnail-portraits .thumbnail-grid {
-  width: 412px;
-  height: 232px;
-  background-color: white;
+.section-thumbnail-portrait p {
+  font-size: 12px;
 }
-.thumbnail-portraits .paragraph-top-info {
+.section-thumbnail-portrait .thumbnail-position {
+  margin: 97px 35px;
+}
+.section-thumbnail-portrait .thumbnail-position .paragraph-top-info {
   font-size: 10px;
   font-weight: 600;
+  margin-bottom: 8px;
   letter-spacing: 0.1em;
   color: #0bc6e3;
 }
-
-.section-2 {
-  display: flex;
-  justify-content: space-around;
-  margin: 150px 222px;
+.section-thumbnail-portrait .thumbnail-position a {
+  text-decoration: none;
 }
-.section-2 .grid-elements-2 {
-  width: 412px;
-  height: 232px;
-  background-color: white;
+.section-thumbnail-portrait .thumbnail-position a:visited {
+  color: black;
+}
+.section-thumbnail-portrait .thumbnail-position a:link {
+  color: black;
+}
+.section-thumbnail-portrait .portraits-info {
+  font-family: spiegel, serif;
+  padding: 11px;
+}
+.section-thumbnail-portrait .portraits-info h2 {
+  font-size: 20px;
+}
+
+.section-load-more {
+  display: flex;
+  justify-content: center;
+  margin: 90px auto;
+}
+
+.load-more {
+  background-color: #0bc6e3;
+  border: none;
+  font-size: 12px;
+  font-family: spiegel;
+  width: 170px;
+  height: 31px;
+  margin: 0 auto;
+  color: white;
+}
+
+footer .main-footer {
+  background-color: #111111;
+  border-top: 2px solid rgba(51, 51, 51, 0.25);
+  height: 703px;
 }
 
 /*# sourceMappingURL=style.css.map */

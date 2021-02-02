@@ -1,12 +1,19 @@
 $font-10: 10px;
 $white: white;
 
+
 @font-face {
     src: url(fonts/Mark-Book/Mark-Book.ttf);
     font-family: mark-ff;
 }
+@font-face {
+   src: url(fonts/spiegel.ttf);
+   font-family: spiegel;
+}
 
-* {margin:0px;}
+* {
+    margin:auto;
+}
 
 header {
     display: flex;
@@ -27,7 +34,7 @@ header {
     }
 
 nav {
-    padding: 28px;
+
     a { 
         font-size: $font-10;
         font-weight: 800;
@@ -45,16 +52,18 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 286px;
-    margin: 29px 20px 0px 461px;
+    margin: 10px 20px 0px 461px;
 }
 
 .net-icon {
     width: 15px;
+    margin-top: -10px;
     align-items: center   
 }
 .nav-login {
     font-size: $font-10;
     color: $white;
+    margin-top: -6px;
     font-weight: 800;
 }
 .nav-play-now {
@@ -72,25 +81,25 @@ nav {
 .banner-master {
     display: flex;
     justify-content: center;
+
     .banner-riot {
         display: flex;
-        justify-content: flex-start;
         align-items:center;
         background-color: black;
         color: white;
         height: 95px;
-        width: 1600px;
-        margin: 38px;
+        width: 1665px;
+        margin: 38px ;
 
         .banner-title {
             font-family: serif;
             font-style: italic;
             font-weight: 900;
             font-size: 30px;
-            margin-left: 240px;
+            margin: 20px 20px 20px 211px;
 }
         .banner-paragraph {
-        min-width: 0px;
+            font-size: 14px;
         max-width: 350px;
         margin-left: 4%;
         border-left: 1px solid rgb(56, 73, 81);
@@ -101,49 +110,64 @@ nav {
 
 
 
-
-
-.thumbnail-portraits {
+.section-thumbnail-portrait {
     display: flex;
-    justify-content: space-around;
-    margin: 0 222px;
+    justify-content: center;
+    margin: -12px auto -110px;
 
-    .thumbnail-grid {
-        width: 412px;
-        height: 232px;
-        background-color:$white;
-}
+    p {
+        font-size: 12px;
+    }
 
-/* thumbnail info*/
+    .thumbnail-position {
+        margin: 97px 35px;
+
         .paragraph-top-info{ 
             font-size: 10px;
             font-weight: 600;
+            margin-bottom: 8px;
             letter-spacing: 0.1em;
             color: rgb(11, 198, 227);
-}}
+            
+    }
+
+    a{
+    text-decoration: none;
+    }
+    a:visited { color: black;}
+    a:link { color: black;}
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section-2 {
+    .portraits-info {
+        font-family: spiegel, serif;
+        padding: 11px;
+        h2 {
+            font-size: 20px;
+}
+}
+}
+.section-load-more {
     display: flex;
-    justify-content: space-around;
-    margin: 150px 222px;
+    justify-content: center;
+    margin: 90px auto;
+}
 
-    .grid-elements-2 {
-        width: 412px;
-        height: 232px;
-        background-color: $white;
-}}
+    .load-more {
+        background-color: rgb(11, 198, 227);
+        border: none;
+        font-size: 12px;
+        font-family: spiegel;
+        width: 170px;
+        height: 31px;
+        margin: 0 auto;
+        color:$white;
+}
+
+footer {
+    .main-footer {
+        background-color: #111111;
+        border-top: 2px solid rgba(51, 51, 51, 0.25);
+        height: 703px;
+}
+    }
