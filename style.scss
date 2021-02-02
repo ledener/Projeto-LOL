@@ -1,11 +1,11 @@
 $font-10: 10px;
 $white: white;
 
-
 @font-face {
     src: url(fonts/Mark-Book/Mark-Book.ttf);
     font-family: mark-ff;
 }
+
 @font-face {
    src: url(fonts/spiegel.ttf);
    font-family: spiegel;
@@ -25,56 +25,59 @@ header {
 
     .container-logo {
         margin-left: 25px;
-        width: 100%;
-        max-width: 140px;
-        
-        .container-logo-2 {
-            padding: 25px 10px 10px 36px;
-            }
+        display: flex;
+
+        img {
+            margin: 1rem;
+        }
     }
 
-nav {
+    nav {
+        a {
+            font-size: $font-10;
+            font-weight: 800;
+            line-height: 15px;
+            padding: 30px 25px 25px 25px;
+            text-decoration: none;
 
-    a { 
-        font-size: $font-10;
-        font-weight: 800;
-        line-height: 15px;
-        padding: 30px 25px 25px 25px;
-        text-decoration: none;
+            &:link {
+                color: white;
+            }
 
-        &:link {
-            color: white;}
-        &:visited {
-            color: white;}
-}
-}
-.playnow-master {
-    display: flex;
-    justify-content: space-between;
-    width: 286px;
-    margin: 10px 20px 0px 461px;
-}
+            &:visited {
+                color: white;
+            }
+        }
+    }
 
-.net-icon {
-    width: 15px;
-    margin-top: -10px;
-    align-items: center   
-}
-.nav-login {
-    font-size: $font-10;
-    color: $white;
-    margin-top: -6px;
-    font-weight: 800;
-}
-.nav-play-now {
-    background-color: #0bc4e2;
-    font-size: $font-10;
-    color: $white;
-    font-weight: 800;
-    width: 129px;
-    height:41px;
-    margin-top: -15px;
-}
+    .header-login {
+        display: flex;
+        height: 100%;
+
+        &-box {
+            margin-right: 1rem;
+        }
+
+        &-icon {
+            width: 15px;
+        }
+
+        &-start-session {
+            font-size: $font-10;
+            color: $white;
+            font-weight: 800;
+        }
+
+        &-btn-play-now {
+            background-color: #0bc4e2;
+            font-size: $font-10;
+            color: $white;
+            font-weight: 800;
+            width: 129px;
+            height: 41px;
+            border: none;
+        }
+    }
 }
 
 /*Section 1*/
