@@ -20,11 +20,10 @@ header {
 }
 header .container-logo {
   margin-left: 25px;
-  width: 100%;
-  max-width: 140px;
+  display: flex;
 }
-header .container-logo .container-logo-2 {
-  padding: 25px 10px 10px 36px;
+header .container-logo img {
+  margin: 1rem;
 }
 header nav a {
   font-size: 10px;
@@ -39,31 +38,29 @@ header nav a:link {
 header nav a:visited {
   color: white;
 }
-header .playnow-master {
+header .header-login {
   display: flex;
-  justify-content: space-between;
-  width: 286px;
-  margin: 10px 20px 0px 461px;
+  height: 100%;
 }
-header .net-icon {
+header .header-login-box {
+  margin-right: 1rem;
+}
+header .header-login-icon {
   width: 15px;
-  margin-top: -10px;
-  align-items: center;
 }
-header .nav-login {
+header .header-login-start-session {
   font-size: 10px;
   color: white;
-  margin-top: -6px;
   font-weight: 800;
 }
-header .nav-play-now {
+header .header-login-btn-play-now {
   background-color: #0bc4e2;
   font-size: 10px;
   color: white;
   font-weight: 800;
   width: 129px;
   height: 41px;
-  margin-top: -15px;
+  border: none;
 }
 
 /*Section 1*/
